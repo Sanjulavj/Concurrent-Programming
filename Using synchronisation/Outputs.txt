@@ -1,0 +1,113 @@
+[INFO]  [2023-01-26 10:46:32.408]  [PRINTING_SYSTEM]  Student Thread Group Created!
+[INFO]  [2023-01-26 10:46:32.471]  [PRINTING_SYSTEM]  Technician Thread Group Created!
+[INFO]  [2023-01-26 10:46:32.473]  [PRINTING_SYSTEM]  Initialised the Printer!
+[INFO]  [2023-01-26 10:46:32.474]  [PRINTING_SYSTEM]  Initialised Student - student1!
+[INFO]  [2023-01-26 10:46:32.475]  [PRINTING_SYSTEM]  Initialised Student - student2!
+[INFO]  [2023-01-26 10:46:32.475]  [PRINTING_SYSTEM]  Initialised Student - student3!
+[INFO]  [2023-01-26 10:46:32.475]  [PRINTING_SYSTEM]  Initialised Student - student4!
+[INFO]  [2023-01-26 10:46:32.476]  [PRINTING_SYSTEM]  Initialised Paper Technician!
+[INFO]  [2023-01-26 10:46:32.476]  [PRINTING_SYSTEM]  Initialised Toner Technician!
+[INFO]  [2023-01-26 10:46:32.476]  [PRINTING_SYSTEM]  Student - student1 Thread Started!
+[INFO]  [2023-01-26 10:46:32.476]  [PRINTING_SYSTEM]  Student - student2 Thread Started!
+[INFO]  [2023-01-26 10:46:32.477]  [PRINTING_SYSTEM]  Student - student3 Thread Started!
+[INFO]  [2023-01-26 10:46:32.478]  [PRINTING_SYSTEM]  Student - student4 Thread Started!
+[INFO]  [2023-01-26 10:46:32.478]  [PRINTING_SYSTEM]  Paper Technician Thread Started!
+[INFO]  [2023-01-26 10:46:32.478]  [PAPER_TECHNICIAN]  Paper Technician checks for paper-refill....
+[INFO]  [2023-01-26 10:46:32.479]  [PRINTER]  Students are still printing....[Paper replacing is waiting]
+[INFO]  [2023-01-26 10:46:32.480]  [PRINTING_SYSTEM]  Toner Technician Thread Started!
+[INFO]  [2023-01-26 10:46:32.481]  [TONER_TECHNICIAN]  Toner Technician checks for cartridges replacement....
+[INFO]  [2023-01-26 10:46:32.481]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:32.483]  [STUDENT]  Printing the [Concurrent book - 1] (pages - 17) ] by [student1]
+[INFO]  [2023-01-26 10:46:32.484]  [STUDENT]  Printing the [Concurrent book - 1] (pages - 19) ] by [student3]
+[INFO]  [2023-01-26 10:46:32.484]  [STUDENT]  Printing the [Concurrent book - 1] (pages - 13) ] by [student4]
+[INFO]  [2023-01-26 10:46:32.486]  [STUDENT]  Printing the [Concurrent book - 1] (pages - 18) ] by [student2]
+[INFO]  [2023-01-26 10:46:32.490]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 250, toner level= 30, num of documents printed= 0]
+[INFO]  [2023-01-26 10:46:32.491]  [PRINTER]  Students are still printing....[Paper replacing is waiting]
+[INFO]  [2023-01-26 10:46:32.491]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[WARN]  [2023-01-26 10:46:32.491]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 13]
+[WARN]  [2023-01-26 10:46:32.492]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 13]
+[WARN]  [2023-01-26 10:46:32.492]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 13]
+[INFO]  [2023-01-26 10:46:35.050]  [STUDENT]  Printing the [Concurrent book - 2] (pages - 11) ] by [student1]
+[INFO]  [2023-01-26 10:46:35.055]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 233, toner level= 13, num of documents printed= 1]
+[INFO]  [2023-01-26 10:46:35.056]  [PRINTER]  Students are still printing....[Paper replacing is waiting]
+[WARN]  [2023-01-26 10:46:35.057]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 2]
+[WARN]  [2023-01-26 10:46:35.057]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 2]
+[WARN]  [2023-01-26 10:46:35.058]  [PRINTER]  Toners are not enough to print the document.... [Current toner level : 2]
+[WARN]  [2023-01-26 10:46:35.058]  [PRINTER]  Toner level is low
+[INFO]  [2023-01-26 10:46:35.059]  [PRINTER]  Toner Replacing.... [ Added Toner Cartridge - 500 ] Printer Details [id= 01, paper level= 222, toner level= 2, num of documents printed= 2]
+[INFO]  [2023-01-26 10:46:35.059]  [PRINTER]  Students are still printing....[Paper replacing is waiting]
+[INFO]  [2023-01-26 10:46:35.060]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 222, toner level= 502, num of documents printed= 2]
+[INFO]  [2023-01-26 10:46:35.060]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 204, toner level= 484, num of documents printed= 3]
+[INFO]  [2023-01-26 10:46:35.060]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 191, toner level= 471, num of documents printed= 4]
+[WARN]  [2023-01-26 10:46:35.061]  [PRINTER]  Paper level is low
+[INFO]  [2023-01-26 10:46:35.064]  [PRINTER]  Paper Replacing.... [ Added papers - 50 ] Printer Details [id= 01, paper level= 172, toner level= 452, num of documents printed= 5]
+[INFO]  [2023-01-26 10:46:37.218]  [STUDENT]  Printing the [Concurrent book - 2] (pages - 22) ] by [student2]
+[INFO]  [2023-01-26 10:46:37.219]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 222, toner level= 452, num of documents printed= 5]
+[INFO]  [2023-01-26 10:46:37.893]  [STUDENT]  Printing the [Concurrent book - 2] (pages - 14) ] by [student4]
+[INFO]  [2023-01-26 10:46:37.894]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 200, toner level= 430, num of documents printed= 6]
+[INFO]  [2023-01-26 10:46:37.953]  [TONER_TECHNICIAN]  Toner Technician checks for cartridges replacement....
+[INFO]  [2023-01-26 10:46:37.953]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:38.351]  [STUDENT]  Printing the [Concurrent book - 2] (pages - 18) ] by [student3]
+[INFO]  [2023-01-26 10:46:38.352]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 186, toner level= 416, num of documents printed= 7]
+[INFO]  [2023-01-26 10:46:38.353]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:39.243]  [PAPER_TECHNICIAN]  Paper Technician checks for paper-refill....
+[WARN]  [2023-01-26 10:46:39.245]  [PRINTER]  Paper level is low
+[INFO]  [2023-01-26 10:46:39.245]  [PRINTER]  Paper Replacing.... [ Added papers - 50 ] Printer Details [id= 01, paper level= 168, toner level= 398, num of documents printed= 8]
+[INFO]  [2023-01-26 10:46:39.246]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:39.298]  [STUDENT]  Printing the [Concurrent book - 3] (pages - 11) ] by [student4]
+[INFO]  [2023-01-26 10:46:39.299]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 218, toner level= 398, num of documents printed= 8]
+[INFO]  [2023-01-26 10:46:39.300]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:39.490]  [STUDENT]  Printing the [Concurrent book - 3] (pages - 16) ] by [student3]
+[INFO]  [2023-01-26 10:46:39.491]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 207, toner level= 387, num of documents printed= 9]
+[INFO]  [2023-01-26 10:46:39.491]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:39.494]  [STUDENT]  Printing the [Concurrent book - 3] (pages - 18) ] by [student1]
+[INFO]  [2023-01-26 10:46:39.495]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 191, toner level= 371, num of documents printed= 10]
+[INFO]  [2023-01-26 10:46:39.495]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:40.683]  [STUDENT]  Printing the [Concurrent book - 4] (pages - 15) ] by [student4]
+[INFO]  [2023-01-26 10:46:40.684]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 173, toner level= 353, num of documents printed= 11]
+[INFO]  [2023-01-26 10:46:40.684]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:40.948]  [PAPER_TECHNICIAN]  Paper Technician checks for paper-refill....
+[WARN]  [2023-01-26 10:46:40.949]  [PRINTER]  Paper level is low
+[INFO]  [2023-01-26 10:46:40.949]  [PRINTER]  Paper Replacing.... [ Added papers - 50 ] Printer Details [id= 01, paper level= 158, toner level= 338, num of documents printed= 12]
+[INFO]  [2023-01-26 10:46:40.949]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:41.423]  [STUDENT]  Printing the [Concurrent book - 4] (pages - 16) ] by [student1]
+[INFO]  [2023-01-26 10:46:41.424]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 208, toner level= 338, num of documents printed= 12]
+[INFO]  [2023-01-26 10:46:41.424]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:42.146]  [STUDENT]  Printing the [Concurrent book - 3] (pages - 22) ] by [student2]
+[INFO]  [2023-01-26 10:46:42.147]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 192, toner level= 322, num of documents printed= 13]
+[INFO]  [2023-01-26 10:46:42.147]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:42.748]  [PAPER_TECHNICIAN]  Paper Technician Finished, packs of paper used: 3
+[INFO]  [2023-01-26 10:46:42.921]  [STUDENT]  Printing the [Concurrent book - 5] (pages - 20) ] by [student4]
+[INFO]  [2023-01-26 10:46:42.921]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 170, toner level= 300, num of documents printed= 14]
+[INFO]  [2023-01-26 10:46:42.922]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:43.327]  [STUDENT]  Printing the [Concurrent book - 4] (pages - 15) ] by [student3]
+[INFO]  [2023-01-26 10:46:43.329]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 150, toner level= 280, num of documents printed= 15]
+[INFO]  [2023-01-26 10:46:43.330]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:43.401]  [STUDENT]  Printing the [Concurrent book - 4] (pages - 24) ] by [student2]
+[INFO]  [2023-01-26 10:46:43.402]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 135, toner level= 265, num of documents printed= 16]
+[INFO]  [2023-01-26 10:46:43.402]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:45.602]  [STUDENT]  student4 finished printing: 5 documents, 73 pages
+[INFO]  [2023-01-26 10:46:45.944]  [STUDENT]  Printing the [Concurrent book - 5] (pages - 16) ] by [student3]
+[INFO]  [2023-01-26 10:46:45.944]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 111, toner level= 241, num of documents printed= 17]
+[INFO]  [2023-01-26 10:46:45.945]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:45.955]  [STUDENT]  Printing the [Concurrent book - 5] (pages - 20) ] by [student1]
+[INFO]  [2023-01-26 10:46:45.963]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 95, toner level= 225, num of documents printed= 18]
+[INFO]  [2023-01-26 10:46:45.964]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:47.201]  [STUDENT]  Printing the [Concurrent book - 5] (pages - 10) ] by [student2]
+[INFO]  [2023-01-26 10:46:47.202]  [PRINTER]  Documents are Printing.... Printer Details [id= 01, paper level= 75, toner level= 205, num of documents printed= 19]
+[INFO]  [2023-01-26 10:46:47.203]  [PRINTER]  Students are still printing....[Toner replacing is waiting]
+[INFO]  [2023-01-26 10:46:47.530]  [STUDENT]  student1 finished printing: 5 documents, 82 pages
+[INFO]  [2023-01-26 10:46:47.531]  [PRINTING_SYSTEM]  Student - student1 Completed Execution!
+[INFO]  [2023-01-26 10:46:48.464]  [STUDENT]  student3 finished printing: 5 documents, 84 pages
+[INFO]  [2023-01-26 10:46:50.601]  [STUDENT]  student2 finished printing: 5 documents, 96 pages
+[INFO]  [2023-01-26 10:46:50.603]  [PRINTING_SYSTEM]  Student - student2 Completed Execution!
+[INFO]  [2023-01-26 10:46:50.604]  [PRINTING_SYSTEM]  Student - student3 Completed Execution!
+[INFO]  [2023-01-26 10:46:50.605]  [PRINTING_SYSTEM]  Student - student4 Completed Execution!
+[INFO]  [2023-01-26 10:46:50.606]  [PRINTING_SYSTEM]  Paper Technician Completed Execution!
+[INFO]  [2023-01-26 10:46:52.204]  [PRINTER]  Students are not printing....[Toner replacing is not waiting]
+[INFO]  [2023-01-26 10:46:53.244]  [TONER_TECHNICIAN]  Toner Technician checks for cartridges replacement....
+[INFO]  [2023-01-26 10:46:53.245]  [PRINTER]  Students are not printing....[Toner replacing is not waiting]
+[INFO]  [2023-01-26 10:46:56.573]  [TONER_TECHNICIAN]  Toner Technician Finished, cartridges replaced: 1
+[INFO]  [2023-01-26 10:46:56.574]  [PRINTING_SYSTEM]  Toner Technician Completed Execution!
+[INFO]  [2023-01-26 10:46:56.574]  [PRINTING_SYSTEM]  All tasks successfully completed!
+[INFO]  [2023-01-26 10:46:56.575]  [PRINTING_SYSTEM]  Final Status of the printer - Printer Details [id= 01, paper level= 65, toner level= 195, num of documents printed= 20]
